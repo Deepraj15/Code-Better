@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="code.css">
+</head>
+<body style="background-color: antiquewhite;">
+    <script>
+        AOS.init();
+
+        function myfunction(){
+            document.getElementById("container-left").style.backgroundImage = "url(carousel-1.jpg)";
+        }
+
+        function myfun(){
+            document.getElementById("container-left").style.backgroundImage = "url(carousel-2.jpg)";
+        }
+
+        function myimage(){
+            document.getElementById("container-left").style.backgroundImage = "url(carousel-3.jpg)";
+        }
+    </script>
+    <header data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+        <div class="left-side">
+            <ul>
+                <li>About</li>
+                <li>Contact us</li>
+                <li>Help</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <ul>
+                <li>My Account&#9662
+                    <ul>
+                        <li>Sign in</li>
+                        <li>Sign Out</li>
+                    </ul>
+                </li>
+                <li>USD&#9662
+                    <ul>
+                        <li>EUR</li>
+                        <li>GBP</li>
+                        <li>CAD</li>
+                    </ul>
+                </li>
+                <li>ES&#9662
+                    <ul>
+
+                        <li>FR</li>
+                        <li>AR</li>
+                        <li>UA</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section  data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500">
+        <div class="search-logo-bar">
+            <div class="logo">
+                <div class="multi">Multi</div>
+                <div class="shop">Shop</div>
+            </div>
+            <div class="search-input">
+                    <input type="text" placeholder="Search for product">
+                    <span  class="fa fa-search search-icon" aria-hidden="true" style="margin-top: 25px;"></span>
+             </div>
+            <div class="logo">
+                <h4 style="margin-top: 25px; ">Customer Services</h4>
+                    <h2>+91944353354</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="catagory">
+                <h1 style="margin-top: 30px; margin-left: 50px;"><i class="fa fa-bars" style="margin-right: 15px;" aria-hidden="true"></i>catagory
+                     <!-- &nbsp&nbsp&nbsp&nbsp&#9662</h1>
+                    <ul style="z-index: 4;">
+                        <li>Dresses</li>
+                        <li>Shirts</li>
+                        <li>Jeans</li>
+                        <li>Swimwear</li>
+                        <li>Sleepwear</li>
+                        <li>Sportswear</li>
+                    </ul> -->
+                </h1>
+            </div>
+            <div class="navbar">
+                         <ul>
+                            <li style="color: yellow; cursor: pointer;">Home</li>
+                            <li  style="cursor: pointer;" onclick="location.href = 'https:/themewagon.github.io/multishop/shop.html'">Shop</li>
+                            <li  style="cursor:pointer;"  onclick="location.href = 'https:/themewagon.github.io/multishop/detail.html'">Shop Details</li>
+                            <li style="cursor: pointer; ">Pages
+                                <!-- &nbsp &#9662
+                                <ul>
+                                    <li>Shopping now</li>
+                                    <li>Check Out</li>
+                                </ul> -->
+                            </li>
+                            <li style="cursor: pointer;"  onclick="location.href = 'https:/themewagon.github.io/multishop/contact.html'">Contacts</li>
+                          </ul>
+            </div>
+            <!-- <div class="icon">
+                <div class="dil">
+                  <span style="margin-left: 10px; border: 2px solid red; border-radius: 50%; padding: 1px; color: white;">0</span>
+                </div>
+                <div class="shop1">
+                    <span style="margin-left: 20px; border: 2px solid red; border-radius: 50%; padding: 1px; color: white;">0</span>
+                </div>
+            </div> -->
+        </div>
+        <div class="container-center">
+              <div id="container-left" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+                <h1 class="h1" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500" style="margin-top: 220px; margin-left: 250px; font-size: 30px; color: white;">Men Fashion-Women Fashion</h1>
+                 <center>
+                    <p  data-aos="zoom-in"  data-aos-duration="1000" data-aos-delay="500" style="color: white; margin-top: 20px;">MultiShop, the responsive template comes with 6 predefined HTML pages, contact page, burger menu, geolocation, collapsible list, responsive header carousel, sticky navigation bar, newsletter subscription UI, pagination UI, back to top button and other UI elements for a better user experience. If you are in need of an ecommerce website template, go for MultiShop as it is enriched with enhancing features on a beautifully designed outlook.</p>
+                    <button class="btn">Shop Now</button>
+                    <div class="buttons" style="margin-top: 20px;">
+                        <div class="blank1"><button class="change " onclick="myfunction()"></button></div>
+                        <div class="blank2"><button class="change " onclick="myfun()"></button></div>
+                        <div class="blank3"><button class="change " onclick="myimage()"></button></div>
+                    </div>
+                 </center>
+              </div>
+              <div class="container-right" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"> 
+                    <div class="container-up">
+                        <div class="indore-wale">
+                            <h2>Save 20%</h2>
+                            <h1 style="margin-top: 20px;">Special Offer</h1>
+                            <button>Shop Now</button>
+                        </div>
+                        <div class="indore"></div>
+                    </div>
+                    <div class="container-down">
+                        <div class="indore-wale">
+                            <h2 style="margin-top: 60px;">Save 20%</h2>
+                            <h1 style="margin-top: 80px;">Special Offer</h1>
+                            <button style="margin-top: 90px;">Shop Now</button>
+                        </div>
+                        <div class="indore" style="background-image: url('offer-2.jpg');">
+                        </div>
+                    </div>
+                </div>
+              </div>
+        <div class="bottom" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+            <div class="bottom-first">
+                <img src="image8.png" alt="right-tick" class="font">
+                <h2 style=" color: black; margin-top: 55px; margin-left: 5px; ">Quality Product</h2>
+            </div>
+            <div class="bottom-second">
+                <img src="image9.jpg" alt="free-Shipping" class="free">
+                <h2 style="color: black; margin-top: 55px; margin-left: 5px; ">Free Shipping</h2>
+            </div>
+            <div class="bottom-third">
+                <img src="image10.png" alt="return" class="return">
+                <h2 style="margin-top: 60px; margin-left: 10px;  color: black;">14 - Days return</h2>
+            </div>
+            <div class="bottom-four">
+                <img src="image11.jpg" alt="return" class="support">
+                <h2 style="margin-top: 63px; margin-left: 2px;  color: black;">24/7 Support</h2>
+            </div>
+        </div>
+        <div class="allinone" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+             <h1 style="margin-left: 30px; margin-top: 20px;">CATAGORYS-----------------------------------------------------------------------------------------------------------------</h1>
+             <div class="bottom5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                 <div class="line1">
+                    <div class="girl1"></div>
+                 </div>
+                 <div class="line1in"> 
+                    <h4 style="margin-top: 25px; margin-left: 30px;">CATAGORY NAME</h4>
+                    <h4 style="margin-top: 25px; margin-left: 30px;">100 Product</h4></div>
+                 <div class="line2">
+                    <div class="camera1"></div>
+                 </div>
+                 <div class="line2in">
+                    <h4 style="margin-top: 25px; margin-left: 30px;">CATAGORY NAME</h4>
+                    <h4 style="margin-top: 25px; margin-left: 30px;">100 Product</h4>
+                 </div>
+                 <div class="line3">
+                    <div class="shoes1"></div>
+                 </div>
+                 <div class="line3in">
+                    <h4 style="margin-top: 25px; margin-left: 30px;">CATAGORY NAME</h4>
+                    <h4 style="margin-top: 25px; margin-left: 30px;">100 Product</h4>
+                 </div>
+                 <div class="line4">
+                    <div class="wash2"></div>
+                 </div>
+                 <div class="line4in">
+                    <h4 style="margin-top: 25px; margin-left: 30px;">CATAGORY NAME</h4>
+                    <h4 style="margin-top: 25px; margin-left: 30px;">100 Product</h4>
+                 </div>
+             </div>
+             <div class="bottom6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <div class="line5">
+                    <div class="wash3"></div>
+                </div>
+                <div class="line5in">
+                   <h4 style="margin-top: 25px; margin-left: 25px;">CATAGORY NAME</h4>
+                   <h4 style="margin-top: 25px; margin-left: 25px;">100 Product</h4>
+                </div>
+                <div class="line6">
+                    <div class="shoes3"></div>
+                </div>
+                <div class="line6in">
+                    <h4 style="margin-top: 25px; margin-left: 25px;">CATAGORY NAME</h4>
+                    <h4 style="margin-top: 25px; margin-left: 25px;">100 Product</h4>
+                </div>
+                <div class="line7">
+                    <div class="camera3"></div>
+                </div>
+                <div class="line7in">
+                    <h4 style="margin-top: 25px; margin-left: 25px;">CATAGORY NAME</h4>
+                    <h4 style="margin-top: 25px; margin-left: 25px;">100 Product</h4>
+                </div>
+                <div class="line8">
+                    <div class="girl1"></div>
+                </div>
+                <div class="line8in">
+                    <h4 style="margin-top: 25px; margin-left: 25px;">CATAGORY NAME</h4>
+                    <h4 style="margin-top: 25px; margin-left: 25px;">100 Product</h4>
+                </div>
+             </div>
+             <div class="bottom7" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <div class="line1">
+                    <div class="girl1"></div>
+                </div>
+                <div class="line1in"> 
+                   <h4 style="margin-top: 25px; margin-left: 30px;">CATAGORY NAME</h4>
+                   <h4 style="margin-top: 25px; margin-left: 30px;">100 Product</h4></div>
+                <div class="line2">
+                    <div class="camera1"></div>
+                </div>
+                <div class="line2in">
+                   <h4 style="margin-top: 25px; margin-left: 30px;">CATAGORY NAME</h4>
+                   <h4 style="margin-top: 25px; margin-left: 30px;">100 Product</h4>
+                </div>
+                <div class="line3">
+                    <div class="shoes1"></div>
+                </div>
+                <div class="line3in">
+                   <h4 style="margin-top: 25px; margin-left: 30px;">CATAGORY NAME</h4>
+                   <h4 style="margin-top: 25px; margin-left: 30px;">100 Product</h4>
+                </div>
+                <div class="line4">
+                    <div class="wash2"></div>
+                </div>
+                <div class="line4in">
+                   <h4 style="margin-top: 25px; margin-left: 30px;">CATAGORY NAME</h4>
+                   <h4 style="margin-top: 25px; margin-left: 30px;">100 Product</h4>
+                </div>
+             </div>
+        </div>
+        <div class="first-bottom" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+            <h1 style="margin-left: 30px; margin-top: 20px;">FEATURED PRODUCTS-----------------------------------------------------------------------------------------------------------------</h1>
+            <div class="first-out">
+                <div class="first1">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="camera">
+                    </div>
+                </div>
+                <div class="second2">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="tshirt">
+                    </div>
+                </div>
+                <div class="third3">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="shoes">
+                    </div>
+                </div>
+                <div class="four4">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="wash">
+                    </div>
+                </div>
+            </div>
+            <div class="second-bottom" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <div class="five5">
+                     <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="six6">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                    <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                    <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="seven7">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                    <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                    <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="eight8">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                    <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                    <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+            </div>
+            <div class="first-out" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <div class="first12">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="dron"></div>
+                </div>
+                <div class="second22">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="watch"></div>
+                </div>
+                <div class="third32">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="girl"></div>
+                </div>
+                <div class="four42">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="wash1"></div>
+                </div>
+            </div>
+            <div class="second-out"data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" >
+                <div class="five52">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="six62">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="seven72">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="eight82">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bottom">
+            <div class="bottom-left">
+                <div class="lady-content">
+                    <h2>Save 20%</h2>
+                    <h1 style="margin-top: 30px;">Special Offer</h1>
+                    <button style="cursor: pointer;">Shop Now</button>
+                </div>
+                <div class="lady"></div>
+            </div>
+            <div class="bottom-right">
+                <div class="lady-content">
+                    <h2>Save 20%</h2>
+                    <h1 style="margin-top: 30px;">Special Offer</h1>
+                    <button style="cursor: pointer;">Shop Now</button>
+                </div>
+                <div class="lady" style="background-image: url('offer-2.jpg');"></div>
+            </div>
+        </div>
+
+
+        <div class="first-bottom" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+            <h1 style="margin-left: 30px; margin-top: 20px;">RECENT PRODUCTS-----------------------------------------------------------------------------------------------------------------</h1>
+            <div class="first-out">
+                <div class="first1">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="camera"></div>
+                </div>
+                <div class="second2">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="tshirt">
+                    </div>
+                </div>
+                <div class="third3">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="shoes"></div>
+                </div>
+                <div class="four4">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="wash"></div>
+                </div>
+            </div>
+            <div class="second-bottom" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <div class="five5">
+                     <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="six6">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                    <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                    <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="seven7">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                    <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                    <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="eight8">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                    <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                    <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+            </div>
+            <div class="first-out" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <div class="first12">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="dron"></div>
+                </div>
+                <div class="second22">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="watch"></div>
+                </div>
+                <div class="third32">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="girl"></div>
+                </div>
+                <div class="four42">
+                    <div class="weight">
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                        <div class="weights"><i class="fa fa-shopping-cart"></i></div>
+                        <div class="weights"><i class="fa fa-search"></i></div>
+                    </div>
+                    <div class="wash1"></div>
+                </div>
+            </div>
+            <div class="second-out" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                <div class="five52">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="six62">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="seven72">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+                <div class="eight82">
+                    <h3 style="margin-top: 40px; margin-left: 35px;">Product Name Goes Here</h3>
+                     <h2 style="margin-left: 45px; margin-top: 10px;">$123.00 <strike>$123.00</strike></h2>
+                     <p style="margin-top: 15px; margin-left: 60px;">
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>
+                        <small class="fa fa-star" style="color:yellow"></small>(99)
+                      </p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bottom-bottom" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+            <div class="bottomcode"></div>
+            <div class="bottomcode1"></div>
+            <div class="bottomcode2"></div>
+            <div class="bottomcode3"></div>
+            <div class="bottomcode4"></div>
+            <div class="bottomcode5"></div>
+        </div>
+        <div class="container-last">
+               <div class="last1">
+                <h1 style="margin-top: 60px; margin-left: 30px; color: white;">GET IN TOUCH</h1>
+                <p  style="margin-left: 30px; margin-top: 50px; color: white; font-weight: bolder;">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</p>
+                <div class="map"></div><h3 style="margin-top: 45px; margin-left: 60px; color: white;">123 Street, New York, USA</h3>
+                <div class="mail"></div><h3 style="margin-top: 20px; margin-left: 60px; color: white;">info@example.com</h3>
+                <div class="call"></div><h3 style="margin-top: 20px; margin-left: 60px; color: white;">+012 345 67890</h3>
+               </div>
+               <div class="last2">
+                <h1 style="margin-top: 60px; margin-left: 60px; color: white;">QUICK SHOP</h1>
+                <h3 style="margin-left: 60px; margin-top: 40px; color: white; font-weight: bolder;">> Home</h3>
+                <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Over Shop</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Shop Detail</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Shopping Cart</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Check Out</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Contact Us</h3>
+               </div>
+               <div class="last3">
+                <h1 style="margin-top: 60px; margin-left: 60px; color: white;">MY ACCOUNT</h1>
+               <h3 style="margin-left: 60px; margin-top: 40px; color: white; font-weight: bolder;">> Home</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Over Shop</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Shop Detail</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Shopping Cart</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Check Out</h3>
+               <h3 style="margin-left: 60px; margin-top: 18px; color: white; font-weight: bolder;">> Contact Us</h3>
+               </div>
+               <div class="last4">
+                <h1 style="margin-top: 60px; margin-left: 60px; color: white;">NEWSLETTER</h1>
+                <h3 style="margin-left: 60px; margin-top: 30px; color: white; font-weight: bolder;">Duo stet tempor ipsum sit amet</h3>
+                <h3 style="margin-left: 60px; margin-top: 30px; color: white; font-weight: bolder;">magna ipsum tempor est</h3>
+                <input type="email" placeholder="Your Email Address"><button  class="sign-up" style="background-color: yellow; padding: 3px; padding-top: 4.5px; border: none;">Sign Up</button>
+                <h3 style="margin-left: 60px; margin-top: 30px; color: white; font-weight: bolder;">Follow Us</h3>
+                <div class="social-media">
+                    <div class="media1"></div>
+                    <div class="media2"></div>
+                    <div class="media3"></div>
+                    <div class="media4"></div>
+                </div>
+
+               </div>
+        </div>
+        <hr>
+        <div class="container-last-last">
+             <div class="last-left">
+                <p style="margin-top: 40px; margin-left: 40px; color: white;">© Domain. All Rights Reserved. Designed by HTML Codex</p>
+                <p style="margin-top: 20px; margin-left: 55px; color: white;">Distributed By: ThemeWagon</p>
+             </div>
+             <div class="last-right">
+                <div class="right1"></div>
+             </div>
+        </div>
+        <footer>
+            <div class="arrow">
+              <i class="fa fa-angle-double-up"></i>
+             </div>
+       <!-- <div class="images">
+            <div class="img">
+                <img src="image.jpg" alt="multishop" height="396" width="434">
+            </div>
+            <div class="img2">
+                <img src="image2.webp" alt="Cloths for men" height="396" width="434">
+            </div>
+            <div class="img3">
+                <img src="image3.jpg" alt="Womens cloths" height="396"  width="576">
+            </div>
+        </div>
+          <center>
+          <div class="heading">
+              <h3>MultiShop is a free bootstrap 4 ecommerce website template.</h3>
+          </div>
+          <div class="para">
+              This ecommerce template is built thoroughly with clean & consistent coding on a beautiful layout. It is rich with FontAwesome fonts, Favicons and other technologies. The well-equipped template is 100% responsive to all major browsers and compatible with all screen sizes and devices.
+              Free Responsive Bootstrap 4 Ecommerce Website Template
+              MultiShop, the responsive template comes with 6 predefined HTML pages, contact page, burger menu, geolocation, collapsible list, responsive header carousel, sticky navigation bar, newsletter subscription UI, pagination UI, back to top button and other UI elements for a better user experience. If you are in need of an ecommerce website template, go for MultiShop as it is enriched with enhancing features on a beautifully designed outlook.</p>
+            </div>
+          </center>
+          <div class="images2">
+                <div class="img4">
+                    <img src="images4.jpg" alt="items">
+                </div>
+                <div class="img5">
+                    <img src="images5.jpg" alt="items">
+                </div>
+                <div class="img6">
+                    <img src="images6.jpg" alt="items">
+                </div>
+          </div>     </footer> 
+       
+    </section>
+    <footer></footer> -->
+</body>
+</html>
